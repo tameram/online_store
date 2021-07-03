@@ -1,0 +1,66 @@
+.user{
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.mainUsersDiv {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .searchbadget{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
+  }
+
+  #main-links > a{
+    margin: 10px;
+    color: #34495e;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+  }
+  
+  *{
+    text-decoration: none;
+    font-family: 'Cinzel Decorative'
+  }
+  
+  a{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .moviesContainer{
+    display:flex;
+    margin-top: 100px;
+  }
+
+  .moviecard{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .details{
+    text-align: center;
+    margin: 5px;
+    
+
+  }
